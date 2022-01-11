@@ -70,8 +70,8 @@ observations:
     where:
     - variable:
         name: smc@GeoVaLs
-      minvalue: 14.5
-      maxvalue: 15.5
+      minvalue: 0.9
+      
 # note: for IMS, we do *not* want to QC out high elevation, 
 # or do a gross error check (later will discard obs 
 # of zero snow fraction, when model has full snow cover).
@@ -112,8 +112,8 @@ observations:
     where:
     - variable:
         name: smc@GeoVaLs
-      minvalue: 14.5
-      maxvalue: 15.5
+      minvalue: 0.9
+
   - filter: Background Check # gross error check
     filter variables:
     - name: totalSnowDepth
