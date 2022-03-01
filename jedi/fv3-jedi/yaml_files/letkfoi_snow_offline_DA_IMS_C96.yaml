@@ -26,7 +26,7 @@ background:
  members:
    - datetime: XXYYYY-XXMM-XXDDTXXHH:00:00Z
      filetype: fms restart
-     state variables: [snwdph,vtype,slmsk]
+     state variables: [snow_depth,vtype,slmsk]
      datapath: mem_pos/
      filename_sfcd: XXYYYYXXMMXXDD.XXHH0000.sfc_data.nc
      filename_cplr: XXYYYYXXMMXXDD.XXHH0000.coupler.res
