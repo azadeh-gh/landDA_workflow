@@ -25,7 +25,7 @@ background:
  date: &date XXYYYY-XXMM-XXDDTXXHH:00:00Z
  members:
    - filetype: gfs
-     state variables: [snwdph,smc,slmsk]
+     state variables: [snow_depth,soil_moisture_vol,slmsk]
      datapath: mem_pos/
      filename_sfcd: XXYYYYXXMMXXDD.XXHH0000.sfc_data.nc
      filename_cplr: XXYYYYXXMMXXDD.XXHH0000.coupler.res
